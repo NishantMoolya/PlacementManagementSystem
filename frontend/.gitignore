@@ -24,7 +24,7 @@ dist-ssr
 *.sw?
 
 # Environmental files uncomment the below files when you use one of those so that important credentials are not pushed to github
-.env.development.local
-.env.production.local
-.env.local
-.env
+# .env.development.local
+# .env.production.local
+# .env.local
+# .env
