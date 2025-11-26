@@ -33,11 +33,6 @@ export default function Home() {
   const [drives, setDrives] = useState(featuredDrives);
   const [stats, setStats] = useState({ totalDrives: 20, totalStudents: 800, totalCompanies: 250 });
 
-  useEffect(() => {
-    // Fetch drives
-    axios.get("/drives").then(res => setDrives(res.data.data || []));
-  }, []);
-
   return (
     <div className="min-h-screen bg-gray-50">
       {/* Hero Section */}
